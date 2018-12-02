@@ -1,0 +1,9 @@
+ARGs types	C0
+Aminoglycosides	14
+Beta_Lactamas	4
+FCA	5
+MLSB	2
+Multidrug	4
+Sulfonamides	2
+Tetracyclines	6
+MGEs	4

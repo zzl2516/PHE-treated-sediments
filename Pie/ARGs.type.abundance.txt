@@ -1,0 +1,8 @@
+ARGs types	C0
+Aminoglycosides	5.74E+08
+Beta_Lactamas	6.96E+07
+FCA	7.77E+07
+MLSB	9.80E+07
+Multidrug	5.53E+08
+Sulfonamides	2.51E+08
+Tetracyclines	1.42E+08

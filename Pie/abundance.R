@@ -1,0 +1,21 @@
+#ARGs type
+ARGs.type <- read.table("ARGs.type.abundance.txt",header = T,sep = "\t",row.names = 1)
+pct<-round(ARGs.type$C0/sum(ARGs.type$C0)*100,digits = 2)
+lbls <- paste(rownames(ARGs.type)," ",pct,"%",sep = "")
+windowsFonts(myFont1=windowsFont("Times New Romans"))
+library(RColorBrewer)
+png(filename = "ARGs.type.abundance.pie.tif",width = 7800,height = 5400,type = "cairo")
+par(family = "myFont1",lwd = 10)
+pie(ARGs.type$C0,labels = lbls,col = brewer.pal(8,"Set3"),clockwise = TRUE,border = rep("black",8),edges = 500,cex = 15,font = 2)
+dev.off()
+
+#ARGs mechanisms
+ARGs.mechanism <- read.table("ARGs.mechanism.abundance.txt",header = T,sep = "\t",row.names = 1)
+pct<-round(ARGs.mechanism$C0/sum(ARGs.mechanism$C0)*100,digits = 2)
+lbls <- paste(rownames(ARGs.mechanism)," ",pct,"%",sep = "")
+windowsFonts(myFont1=windowsFont("Times New Romans"))
+library(RColorBrewer)
+tiff(filename = "ARGs.mechanism.abundance.pie.tiff",width = 8800,height = 5400,type = "windows",compression = "lzw")
+par(family = "myFont1",lwd = 10)
+pie(ARGs.mechanism$C0,labels = lbls,col = brewer.pal(4,"Set1"),border = rep("black",8),edges = 500,cex = 15,font = 2)
+dev.off()

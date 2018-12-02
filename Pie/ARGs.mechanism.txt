@@ -1,0 +1,5 @@
+ARGs mechanisms	C0
+Antibiotic deactivatiton	21
+Antibiotic efflux	12
+Cellular protection	1
+Unknown	3
