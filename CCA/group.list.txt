@@ -1,0 +1,8 @@
+LP7	Low PHE	Day 7
+HP7	High PHE	Day 7
+LP15	Low PHE	Day 15
+HP15	High PHE	Day 15
+LP25	Low PHE	Day 25
+HP25	High PHE	Day 25
+LP40	Low PHE	Day 40
+HP40	High PHE	Day 40
