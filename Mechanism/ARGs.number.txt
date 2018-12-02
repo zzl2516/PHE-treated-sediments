@@ -1,0 +1,5 @@
+ARGs mechanisms	C0	C7	LP7	HP7	C15	LP15	HP15	C25	LP25	HP25	C40	LP40	HP40
+Antibiotic deactivate	21	12	7	16	7	12	14	9	6	12	3	6	10
+Efflux pump	12	4	5	8	3	7	7	3	2	4	3	6	3
+Cellular protection	1	0	1	2	0	1	1	0	0	0	0	3	2
+Unknown	3	0	1	1	0	0	0	0	0	1	0	1	1
