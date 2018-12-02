@@ -1,0 +1,13 @@
+Mantel statistic based on Pearson's product-moment correlation 
+
+Call:
+mantel(xdis = otu.dist, ydis = env.dist) 
+
+Mantel statistic r: -0.2793 
+      Significance: 0.803 
+
+Upper quantiles of permutations (null model):
+  90%   95% 97.5%   99% 
+0.312 0.395 0.440 0.476 
+Permutation: free
+Number of permutations: 999

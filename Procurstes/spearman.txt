@@ -1,0 +1,13 @@
+Mantel statistic based on Spearman's rank correlation rho 
+
+Call:
+mantel(xdis = otu.dist, ydis = env.dist, method = "spearman") 
+
+Mantel statistic r: -0.3695 
+      Significance: 0.892 
+
+Upper quantiles of permutations (null model):
+  90%   95% 97.5%   99% 
+0.329 0.388 0.425 0.490 
+Permutation: free
+Number of permutations: 999
