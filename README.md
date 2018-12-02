@@ -1,2 +1,2 @@
 # PHE-treated-sediments
-The changes of microbial communities and ARGs in sediments treated by PHE
+The codes of analyses in the manuscript of "Phenanthrene contamination enhances the persistence of antibiotic resistome in coastal sediments"
